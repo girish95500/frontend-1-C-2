@@ -1,0 +1,73 @@
+body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Sticky Navigation Bar */
+    .navbar {
+      position: sticky;
+      top: 0;
+      background-color: #f2f2f2;
+      padding: 10px;
+      text-align: center;
+      z-index: 100;
+    }
+
+    .navbar a {
+      color: #555;
+      text-decoration: none;
+      padding: 10px 20px;
+    }
+
+    /* Table of Books */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    /* Registration Form */
+    .registration-form {
+      max-width: 400px;
+      margin: 20px auto;
+      padding: 20px;
+      border: 1px solid #ddd;
+    }
+
+    .registration-form label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .registration-form input[type="text"],
+    .registration-form input[type="email"],
+    .registration-form input[type="password"],
+    .registration-form input[type="date"],
+    .registration-form input[type="number"] {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+    }
+
+    .registration-form button {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .registration-form button:hover {
+      background-color: #45a049;
+    }
